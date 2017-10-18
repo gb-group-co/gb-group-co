@@ -1,10 +1,4 @@
-body {
-  padding-top: 5rem;
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
+body {padding-top: 3rem;}
 
 .btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
 .btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
@@ -14,3 +8,23 @@ body {
 
 .btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
 .btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
+
+#jumbo {
+background: url(../img/bg.jpg) no-repeat center top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-top: 4rem;
+padding-bottom: 10rem;
+margin-bottom: 3rem;
+text-align: center;
+}
+
+.logo-jumbo {
+margin-bottom: 2rem;
+}
+
+.tagline {
+text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+}
