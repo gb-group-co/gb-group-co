@@ -5,3 +5,12 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+.btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
+.btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
+
+.btn-ra{color:#fff;background-color:#0076BD;border-color:#01588C}
+.btn-ra:hover{color:#fff;background-color:#0076BD;border-color:#01588C}
+
+.btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
+.btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
