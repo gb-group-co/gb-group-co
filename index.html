@@ -9,39 +9,41 @@
 
     <title>GB Group - Soil Preparation Equipment Manufacturer - Grégoire Besson, Rabe, Agriway</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#"><img src="img/logo-gb-group-navbar.png"></a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
-            <div class="dropdown-menu" aria-labelledby="languages">
-              <a class="dropdown-item" href="/fr/index.html">Français</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/logo-gb-group-navbar.png" height="35px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/fr">Français</a>
+          <a class="dropdown-item" href="/de">Deutsch</a>
+          <a class="dropdown-item" href="/pl">Polski</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-    <nav class="navbar navbar-dark bg-dark">
-      <!-- Navbar content -->
-    </nav>
 
-    <section class="bg" id="jumbo">
+
+    <div class="bg" id="jumbo">
 
       <div class="container">
 
@@ -50,7 +52,7 @@
 
       </div>
       
-    </section>
+    </div>
 
 
 
@@ -115,9 +117,501 @@
 
     </section>
 
+
+    <section>
+      
+      <div class="container">
+        
+        <h2 class="text-center">Simplicity &amp; Efficiency</h2>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col"></div>
+
+          <div class="col-8">
+            
+            <div class="row">
+              
+              <div class="col-8">
+                <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet ligula ac nunc cursus interdum. Donec in mauris et risus volutpat accumsan. Phasellus sodales pellentesque nibh, eu rhoncus sem convallis et.</em></p>
+
+                <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet ligula ac nunc cursus interdum.</em></p>
+
+                <p><em>Donec in mauris et risus volutpat accumsan. Phasellus sodales pellentesque nibh, eu rhoncus sem convallis et."</em></p>
+
+                <p class="float-right"><small>Patrick Besson, Major Shareholder @ GB Group</small></p>
+                
+              </div>
+
+              <div class="col-4">
+                <img class="img-fluid" src="img/patrick-besson.jpg">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <section>
+      
+      <div class="container">
+        
+        <h2 class="text-center">A worldwide presence</h2>
+
+        <br>
+
+        <h4 class="text-center">7 Factories, 9 Subsidiaries &amp; 1,096 Dealers</h4>
+
+        <br>
+
+        <div id="map"></div>
+
+        <script>
+          function initMap() {
+            var montigne = {lat: 47.084276, lng: -1.136000};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 2,
+              center: montigne,
+              styles: [
+                        {
+                            "featureType": "administrative",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "saturation": "-100"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.province",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "landscape",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "saturation": -100
+                                },
+                                {
+                                    "lightness": 65
+                                },
+                                {
+                                    "visibility": "on"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "saturation": -100
+                                },
+                                {
+                                    "lightness": "50"
+                                },
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "saturation": "-100"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.arterial",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "lightness": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "lightness": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit",
+                            "elementType": "all",
+                            "stylers": [
+                                {
+                                    "saturation": -100
+                                },
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry",
+                            "stylers": [
+                                {
+                                    "hue": "#ffff00"
+                                },
+                                {
+                                    "lightness": -25
+                                },
+                                {
+                                    "saturation": -97
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels",
+                            "stylers": [
+                                {
+                                    "lightness": -25
+                                },
+                                {
+                                    "saturation": -100
+                                }
+                            ]
+                        }
+                    ]
+            });
+            var marker = new google.maps.Marker({
+              position: montigne,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-QRRUXqe0QhdjWwx-MYLMl4GmmelEFKU&callback=initMap">
+        </script>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+<section>
+      
+      <div class="container">
+        
+        <h2 class="text-center">A wide range of equipments</h2>
+
+        <br>
+
+        <div class="row">
+          
+          <div class="col"></div>
+
+          <div class="col-10">
+
+            <div class="row"> 
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-gb">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-gb">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-gb">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-gb">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-gb">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ra">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ra">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ra">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ra">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ra">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ag">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ag">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ag">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card card-range">
+                  <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                  <div class="card-body">
+                    <p class="card-text text-center text-ag">Ploughs</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+
+          </div>
+
+          <div class="col"></div>
+
+        </div>
+
+        
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <section>
+      
+      <div class="container">
+        
+        <h2 class="text-center">600 Collaborators, 1 Goal: Customer Satisfaction</h2>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col"></div>
+
+          <div class="col-10">
+            
+            <div class="row">
+
+              <div class="col-9">
+                <img class="img-fluid" src="img/team.jpg">
+              </div>
+              
+              <div class="col-3">
+                <p>Wether we are in our production units, on a tradeshow or in the fields, we always have in mind that our duty is to work on the best way to help our customers using the best soil preparation equipments.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <div class="bg" id="history">
+
+      <div class="container">
+
+        <h2 class="tagline-white">With you since 1802 and for many more years...</h2>
+
+      </div>
+      
+    </div>
+
+
+    <p class="legend text-center"><small>...Victor Grégoire started it all in Montigné, France more than 200 years ago.</small></p>
+
+
+    <a class="anchor" name="contact"></a>
+
+
+    <section>
+      
+      <div class="container">
+        
+        <h2 class="text-center">Contact</h2>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col">
+            
+            <div class="card-deck text-center">
+              <div class="card">
+                <img class="card-img-top" src="img/contact-sales.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><small>You are looking for help to find out the best equipment for your needs and constraints? Let one of our expert salesmen hear about your daily difficulties and find the best solution among our wide range of solutions.</small></p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-gbgroup btn-sm btn-block">Contact Sales</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="img/contact-subsidiaries.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><small>You are a local agricultural equipment retailer? You are looking for an easy-to-deal-with brand to cover more of your customers needs? We are looking for dealers in every area of the world. Apply as a dealer and let's meet.</small></p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-gbgroup btn-sm btn-block">Become a Dealer</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="img/contact-hr.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><small>You want to work in an industrial context? You have always wanted to be part of a large company project? You are solution-oriented and focus on customer satisfaction? Give yourself a chance. Apply now.</small></p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-gbgroup btn-sm btn-block">Apply for a Job</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="img/contact-purchasing.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><small>You are a manufacturer or a service provider. You have something that you think can interest GB Group? Apply as a supplier giving us a vision over your catalogue and rates but mostly tell us about the value of what you do.</small></p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-gbgroup btn-sm btn-block">Become a Supplier</a>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+
+
     
 
     <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>

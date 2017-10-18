@@ -1,4 +1,14 @@
-body {padding-top: 3rem;}
+* {font-family: 'Noto Sans', sans-serif;}
+
+a {color: #e2001a;}
+a:hover {color: #BA0217;}
+
+a.anchor {
+display: block;
+position: relative;
+top: 50px;
+visibility: hidden;
+}
 
 .btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
 .btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
@@ -9,22 +19,45 @@ body {padding-top: 3rem;}
 .btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
 .btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
 
+.btn-gbgroup{color:#fff;background-color:#1E1E1E;border-color:#050505}
+.btn-gbgroup:hover{color:#fff;background-color:#1E1E1E;border-color:#050505}
+
+.text-gb {color:#e2001a;}
+.text-ra {color:#0076BD;}
+.text-ag {color:#266D3B;}
+
+
+section {margin-top: 10rem; margin-bottom: 10rem;}
+
 #jumbo {
 background: url(../img/bg.jpg) no-repeat center top;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-padding-top: 4rem;
-padding-bottom: 10rem;
-margin-bottom: 3rem;
+padding-top: 5rem;
+padding-bottom: 16rem;
 text-align: center;
 }
 
-.logo-jumbo {
-margin-bottom: 2rem;
+#history {
+background: url(../img/victor-gregoire.jpg) no-repeat center top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-top: 2rem;
+padding-bottom: 26rem;
+text-align: center;
 }
 
-.tagline {
-text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
-}
+.logo-jumbo {margin-bottom: 2rem;}
+
+.tagline {text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);}
+.tagline-white {color:#FFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);}
+
+.legend {margin-top: 1rem;}
+
+#map {height: 30rem; width: 100%;}
+
+.card-range {margin-bottom: 2rem;}
