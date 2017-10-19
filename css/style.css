@@ -21,8 +21,8 @@ visibility: hidden;
 .btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
 .btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
 
-.btn-gbgroup{color:#fff;background-color:##3c3c3b;border-color:#050505}
-.btn-gbgroup:hover{color:#fff;background-color:##3c3c3b;border-color:#050505}
+.btn-gbgroup{color:#fff;background-color:#3c3c3b;border-color:#050505}
+.btn-gbgroup:hover{color:#fff;background-color:#3c3c3b;border-color:#050505}
 
 .text-gb, .text-ra, .text-ag {font-size: 0.8rem;}
 
