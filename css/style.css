@@ -10,7 +10,7 @@ top: 50px;
 visibility: hidden;
 }
 
-.navbar-dark {background-color: #3c3c3b;}
+.navbar-dark {background-color: #3c3c3b!important;}
 
 .btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
 .btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
