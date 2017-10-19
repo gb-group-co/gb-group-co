@@ -10,6 +10,8 @@ top: 50px;
 visibility: hidden;
 }
 
+.navbar-dark {background-color: #3c3c3b;}
+
 .btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
 .btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
 
@@ -19,8 +21,8 @@ visibility: hidden;
 .btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
 .btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
 
-.btn-gbgroup{color:#fff;background-color:#1E1E1E;border-color:#050505}
-.btn-gbgroup:hover{color:#fff;background-color:#1E1E1E;border-color:#050505}
+.btn-gbgroup{color:#fff;background-color:##3c3c3b;border-color:#050505}
+.btn-gbgroup:hover{color:#fff;background-color:##3c3c3b;border-color:#050505}
 
 .text-gb, .text-ra, .text-ag {font-size: 0.8rem;}
 
