@@ -65,3 +65,5 @@ text-align: center;
 #map {height: 30rem; width: 100%;}
 
 .card-range {margin-bottom: 2rem;}
+
+.maps iframe{pointer-events: none;}

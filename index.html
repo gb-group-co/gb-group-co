@@ -205,151 +205,21 @@
 
         <br>
 
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zRUcvQP4MIj2cNyYdIWzGyTHTJw&z=2&ll=25.0, 0.0" width="100%" height="480"></iframe>
+        <div class="maps">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zRUcvQP4MIj2cNyYdIWzGyTHTJw&z=2&ll=25.0, 0.0" width="100%" height="480"></iframe>
+        </div>
 
-        <!--<div id="map"></div>
-
-        <script>
-          function initMap() {
-            var montigne = {lat: 47.084276, lng: -1.136000};
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 2,
-              center: montigne,
-              styles: [
-                        {
-                            "featureType": "administrative",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "saturation": "-100"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "administrative.province",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "visibility": "off"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "landscape",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "saturation": -100
-                                },
-                                {
-                                    "lightness": 65
-                                },
-                                {
-                                    "visibility": "on"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "poi",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "saturation": -100
-                                },
-                                {
-                                    "lightness": "50"
-                                },
-                                {
-                                    "visibility": "simplified"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "saturation": "-100"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "visibility": "simplified"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.arterial",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "lightness": "30"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "road.local",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "lightness": "40"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "transit",
-                            "elementType": "all",
-                            "stylers": [
-                                {
-                                    "saturation": -100
-                                },
-                                {
-                                    "visibility": "simplified"
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "water",
-                            "elementType": "geometry",
-                            "stylers": [
-                                {
-                                    "hue": "#ffff00"
-                                },
-                                {
-                                    "lightness": -25
-                                },
-                                {
-                                    "saturation": -97
-                                }
-                            ]
-                        },
-                        {
-                            "featureType": "water",
-                            "elementType": "labels",
-                            "stylers": [
-                                {
-                                    "lightness": -25
-                                },
-                                {
-                                    "saturation": -100
-                                }
-                            ]
-                        }
-                    ]
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('.maps').click(function () {
+                $('.maps iframe').css("pointer-events", "auto");
             });
-            var marker = new google.maps.Marker({
-              position: montigne,
-              map: map
+            
+            $( ".maps" ).mouseleave(function() {
+              $('.maps iframe').css("pointer-events", "none"); 
             });
-          }
+         });    
         </script>
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-QRRUXqe0QhdjWwx-MYLMl4GmmelEFKU&callback=initMap">
-        </script>-->
 
         </div>
 
