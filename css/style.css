@@ -40,7 +40,7 @@ background: url(../img/bg.jpg) no-repeat center top;
 -o-background-size: cover;
 background-size: cover;
 padding-top: 7rem;
-padding-bottom: 16rem;
+padding-bottom: 36rem;
 text-align: center;
 }
 
@@ -57,7 +57,7 @@ text-align: center;
 
 .logo-jumbo {margin-bottom: 2rem;}
 
-.tagline {text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);}
+.tagline {text-shadow: 1px 1px 1px rgba(120, 120, 120, 0.75);}
 .tagline-white {color:#FFF; text-shadow: 2px 2px 4px rgba(120, 120, 120, 0.75);}
 
 .legend {margin-top: 1rem;}
